@@ -99,7 +99,8 @@ a.discord {
 }
 
 .footer-title {
-  padding-bottom: 15px;
+  padding-bottom: 30px;
+  font-size: 30px;
 }
 
 .footer-logo {

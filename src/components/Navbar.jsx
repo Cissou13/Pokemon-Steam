@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 export default function Navbar() {
@@ -7,36 +8,36 @@ export default function Navbar() {
       <div className='navbar-container'>
         <ul className='menu-container'>
           <li className='menu-items'>
-            <a href='/projets'>
+            <Link to='/projets'>
               Présentation des projets
               <span role='img' aria-label='Equipe'>
                 🛠️
               </span>
-            </a>
+            </Link>
           </li>
           <li className='menu-items'>
-            <a href='/histoire'>
+            <Link to='/histoire'>
               Synopsis{' '}
               <span role='img' aria-label='Equipe'>
                 📖
               </span>
-            </a>
+            </Link>
           </li>
           <li className='menu-items'>
-            <a href='/FAQ'>
+            <Link to='/FAQ'>
               FAQ
               <span role='img' aria-label='Equipe'>
                 ❓
               </span>
-            </a>
+            </Link>
           </li>
           <li className='menu-items'>
-            <a href='/team'>
+            <Link to='/team'>
               Acteurs du projet
               <span role='img' aria-label='Equipe'>
                 🖱️
               </span>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

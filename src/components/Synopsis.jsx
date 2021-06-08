@@ -4,7 +4,7 @@ import './Synopsis.css';
 export default function Synopsis() {
   return (
     <div className='synopsis-container'>
-      <h1>Région d'Exodius</h1>
+      <h2 className='synopsis-title'>Région d'Exodius</h2>
       <img
         src='https://www.cyrillefabre.com/upload/pokemonsteam/map.png'
         alt='Map Région Exodius'
@@ -37,7 +37,7 @@ export default function Synopsis() {
       <p className='synopsis-text'>
         Enfant du Maître de la Ligue, traversez et explorez le monde de Pokémon
         Steam, confrontez votre force aux champions d’arènes, affronter la Ligue
-        Pokémon et devenez le dresseur le plus puissant que la région n'est
+        Pokémon et devenez le dresseur le plus puissant que la région n'ait
         jamais connue !{' '}
       </p>
       <p className='synopsis-text'>
@@ -45,12 +45,25 @@ export default function Synopsis() {
         15 villes et de plusieurs biomes.
       </p>
       <br />
+      <h2 className='synopsis-title'>Les starters</h2>
+      <img
+        src='https://www.cyrillefabre.com/upload/pokemonsteam/starters.png'
+        alt='Map Région Exodius'
+        title='Map Région Exodius'
+        className='synopsis-image'
+      />
+      <p className='synopsis-text'>
+        Et oui les starters sont au nombre de 4, ce sont des versions modifiées
+        (Type, moveset) de pokemons existants. Ils sont exclusifs à Exodius.
+      </p>
       <a
+        className='center'
         href='https://pokemonworkshop.fr/forum/index.php?topic=5417.0'
         target='_blank'
         rel='noreferrer'
+        id='more'
       >
-        En savoir plus
+        Plus de détails sur l'histoire?
       </a>
     </div>
   );
