@@ -4,3 +4,8 @@
   margin: 0 auto;
   width: 75%;
 }
+
+.answer-text {
+  float: center;
+  overflow: hidden;
+}

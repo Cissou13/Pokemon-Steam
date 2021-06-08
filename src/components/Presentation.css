@@ -2,3 +2,10 @@
   width: 75%;
   margin: 0 auto;
 }
+
+.presentation-item h2 {
+  border-top: 8px ridge #c6d6d0;
+  border-bottom: 8px ridge #c6d6d0;
+  width: auto;
+  /* background-color: #c6d6d0; */
+}

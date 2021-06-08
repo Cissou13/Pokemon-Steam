@@ -5,7 +5,7 @@ export default function Presentation() {
   return (
     <div className='presentation-container'>
       <section className='presentation-item'>
-        <h2>Histoire du projet Steam 1</h2>
+        <h2>Projet Steam 1</h2>
         <p>
           Le projet Pokémon Steam a officiellement commencé le 16 janvier 2018,
           j'ai toujours voulu faire un jeu Pokémon. Je me suis donc lancé dans
@@ -48,25 +48,14 @@ export default function Presentation() {
         </p>
       </section>
       <section className='presentation-item'>
-        <h2>COUCOU Steam 2</h2>
+        <h2>Projet Steam 2</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
-          nostrum dolores iste sint, inventore autem qui fugiat neque ad.
-          Recusandae, optio eum. Consequatur eveniet sunt saepe quidem? In ex
-          consequatur, quos vel veritatis perferendis sunt error et, sed itaque
-          facere. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Aliquam quaerat natus cumque quam iure, ullam est provident labore
-          laboriosam ipsa! Officiis sint sequi labore ut voluptatem quam sed
-          libero, explicabo distinctio ex qui earum. Enim voluptatem animi ipsum
-          ipsa necessitatibus at repellat quaerat ullam delectus dicta veritatis
-          sed eaque quasi consequatur fugit excepturi a adipisci eligendi
-          corporis, perferendis exercitationem expedita explicabo tenetur
-          nostrum. Rerum, iste magnam quasi quaerat sed quidem numquam aut
-          asperiores amet, voluptatem officiis porro sunt accusamus placeat?
+          Projet avec une bêta fermée très prochainement (sûrement d'ici l'été
+          2021) et un potentiel lancement officiel début 2022
         </p>
       </section>
       <section className='presentation-item'>
-        <h2>COUCOU Steam 3</h2>
+        <h2>Projet Steam 3 ?</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dolore
           ea amet repellendus rerum nostrum et reprehenderit fugit, pariatur
