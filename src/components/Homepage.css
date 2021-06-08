@@ -1,0 +1,10 @@
+/********************************
+-           HomePage
+********************************/
+
+.homepage-container {
+  border: solid 2px black;
+  text-align: center;
+  margin: 0 auto;
+  width: 75%;
+}
