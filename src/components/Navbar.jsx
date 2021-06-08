@@ -9,7 +9,7 @@ export default function Navbar() {
         <ul className='menu-container'>
           <li className='menu-items'>
             <Link to='/projets'>
-              Présentation des projets
+              Présentation des projets Steam
               <span role='img' aria-label='Equipe'>
                 🛠️
               </span>

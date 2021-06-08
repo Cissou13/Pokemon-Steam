@@ -46,9 +46,10 @@ a.social:hover {
   transform: translateY(-2px);
 }
 .copyright {
-  margin: 0 auto;
+  margin: 0;
   line-height: 10px;
   text-align: center;
+  text-decoration: underline;
 }
 
 a.youtube {
@@ -81,23 +82,6 @@ a.discord {
   align-items: center;
 }
 
-.footer-sitemap {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.footer-sitemap > ul {
-  padding: 0;
-}
-
-.footer-list {
-  list-style-type: none;
-  color: antiquewhite;
-  text-align: center;
-  padding: 0 10px;
-}
-
 .footer-title {
   padding-bottom: 30px;
   font-size: 30px;
@@ -105,4 +89,5 @@ a.discord {
 
 .footer-logo {
   width: 100%;
+  box-sizing: cover;
 }

@@ -16,12 +16,14 @@
   text-align: center;
   font-weight: bold;
   font-size: x-large;
+  color: rgb(54, 47, 47);
 }
 
 .team-presentation h1 {
   margin: 20px 0;
   font-family: 'Leckerli One';
   text-align: center;
+  color: rgb(54, 47, 47);
 }
 
 .team-presentation img {

@@ -63,7 +63,8 @@ export default function Synopsis() {
         rel='noreferrer'
         id='more'
       >
-        Plus de détails sur l'histoire?
+        Vous voulez des captures du jeu et du tease supplémentaire? Alors
+        cliquez!
       </a>
     </div>
   );

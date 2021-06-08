@@ -11,8 +11,6 @@ export default function Footer() {
           <div className='footer-logo'>
             <img
               src='https://www.cyrillefabre.com/upload/logos/pokemonsteam.png'
-              width='150'
-              height='150'
               alt='Logo Pokemon Steam'
               title='Logo Pokemon Steam'
             />
