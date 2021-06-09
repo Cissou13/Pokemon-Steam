@@ -21,7 +21,11 @@ export default function Homepage() {
           N'hésitez pas à rejoindre le discord officiel du jeu, ainsi que le
           wiki où 90% de vos questions trouveront réponse.{' '}
         </p>
-        <p> Jetez un oeil à la catégorie "Liens Utiles" en bas du site.</p>
+        <p>
+          {' '}
+          Jetez un oeil à la catégorie <strong>Liens Utiles</strong> en bas du
+          site.
+        </p>
       </section>
     </main>
   );

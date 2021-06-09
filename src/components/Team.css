@@ -12,18 +12,12 @@
   width: 70%;
 }
 
-.team-presentation p {
-  text-align: center;
-  font-weight: bold;
-  font-size: x-large;
-  color: rgb(54, 47, 47);
-}
-
-.team-presentation h1 {
-  margin: 20px 0;
-  font-family: 'Leckerli One';
-  text-align: center;
-  color: rgb(54, 47, 47);
+.team-presentation {
+  border-bottom: 5px ridge #5d8abd;
+  width: 35%;
+  margin: 2% auto;
+  padding: 5px 0;
+  color: rgb(184, 171, 209);
 }
 
 .team-presentation img {
@@ -37,20 +31,19 @@
   width: 100%;
   margin: auto;
   color: rgba(206, 194, 194, 0.966);
-  background-color: #fbda61;
-  background-image: linear-gradient(45deg, #49494e 0%, #7e130db6 100%);
+  background-image: linear-gradient(45deg, #6285bc 0%, #49494e 100%);
 }
 
 .team-content {
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
-  background-color: #4a79ca;
-  color: #fbd8c8;
+  background-color: #7685a5;
+  color: #e6e5e4;
   flex-flow: row wrap;
   text-align: center;
   justify-content: center;
   transition: all 0.7s ease-in-out;
-  width: 40%;
+  width: 50%;
   min-width: 300px;
   margin: 5rem 0.5rem 3rem 0.5rem;
   padding: 1.25rem;

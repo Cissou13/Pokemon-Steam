@@ -52,19 +52,19 @@ export default function Presentation() {
       </section>
       <section className='presentation-item'>
         <h2>Projet Steam 2</h2>
-        <p>
+        <blockquote>
           Projet toujours en cours de développement. Une date sera annoncée sur
           le discord du jeu. <br />
           La seule info que nous avons : L'histoire se passe 20 ans après Steam
-          1, et se situe dans la région du post game
-        </p>
+          1, et se situe dans la région du post game (Tamariel)
+        </blockquote>
       </section>
       <section className='presentation-item'>
         <h2>Projet Steam 3 ?</h2>
-        <p>
+        <blockquote>
           Le rêve est à portée de main de tout un chacun... Laissons d'abord
           Steam 2 arriver
-        </p>
+        </blockquote>
       </section>
     </div>
   );

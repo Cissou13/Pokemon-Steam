@@ -5,10 +5,9 @@ export default function Team() {
   return (
     <main className='team-main'>
       <article className='team-history'>
-        <div className='team-presentation'>
-          <h1>Présentation de l'équipe & Crédits</h1>
-          <p className='sort-btn'>Team Steam 1 et 2 </p>
-        </div>
+        <h2 className='team-presentation'>
+          Présentation de l'équipe & Crédits
+        </h2>
       </article>
 
       <article className='team-content'>

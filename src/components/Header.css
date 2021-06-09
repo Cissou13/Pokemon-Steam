@@ -3,9 +3,12 @@
 ********************************/
 
 .header-container {
-  background-color: var(--header-bg-color);
+  /* background-color: var(--header-bg-color); */
+  /* background-color: #4a79ca; */
+  background-image: linear-gradient(45deg, #6285bc 0%, #49494e 100%);
   display: flex;
   justify-content: center;
+  height: 240px;
 }
 
 /********************************
@@ -15,6 +18,7 @@
 .navbar-container {
   background-color: var(--main-color);
   height: auto;
+  border: 1px solid black;
   /* position: absolute; */
   width: 100%;
   line-height: 10px;
@@ -34,4 +38,29 @@
 
 .menu-items a {
   padding: 0;
+}
+
+/********************************
+-         Responsive
+********************************/
+
+@media screen and (max-width: 1024px) {
+  body {
+    width: 100%;
+  }
+  .menu-container {
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .menu-items {
+    padding: 2% 0;
+  }
+  .menu-items a {
+    border-bottom: 2px solid white;
+  }
+  .responsive {
+    width: 384px;
+    height: auto;
+  }
 }

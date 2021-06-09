@@ -3,8 +3,7 @@
 ********************************/
 
 .synopsis-container {
-  background-color: #fbda61;
-  background-image: linear-gradient(45deg, #49494e 0%, #7e130db6 100%);
+  background-image: linear-gradient(45deg, #6285bc 0%, #49494e 100%);
   color: rgba(255, 255, 255, 0.856);
   display: flex;
   flex-direction: column;
@@ -24,10 +23,13 @@
 }
 
 .synopsis-title {
-  color: rgb(59, 45, 45);
-  border-bottom: 5px ridge #a3d3c1;
+  border-bottom: 5px ridge #5d8abd;
   width: 15%;
-  margin: 1% auto;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px 0;
+  color: rgb(184, 171, 209);
 }
 
 #more {

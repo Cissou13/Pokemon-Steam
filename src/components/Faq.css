@@ -5,13 +5,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #fbda61;
-  background-image: linear-gradient(45deg, #49494e 0%, #7e130db6 100%);
+  background-image: linear-gradient(45deg, #6285bc 0%, #49494e 100%);
   color: rgba(255, 255, 255, 0.856);
 }
 
 .question-text {
-  color: rgb(44, 41, 41);
+  /* color: rgb(165, 169, 177); */
+  color: rgb(184, 171, 209);
   width: 75%;
   margin: 0 auto;
   font-weight: bolder;
@@ -27,16 +27,18 @@
   padding: 15px 0;
 }
 
+h3:first-of-type {
+  padding-top: 5px;
+}
 .border-title {
-  width: 40%;
-  border: 3px solid #a3d3c1;
+  width: 35%;
+  border-bottom: 5px ridge #5d8abd;
   margin: 5px auto;
 }
 
-.fa-atlas,
-.fa-discord {
-  color: rgb(10, 46, 56);
+.FAQ-container i {
   padding: 0 10px;
+  color: rgb(35, 212, 73);
 }
 .config-container {
   display: flex;
