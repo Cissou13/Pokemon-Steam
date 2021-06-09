@@ -8,11 +8,11 @@ export default function Homepage() {
       <section className='homepage-content'>
         <p>
           Ce site fait la jonction entre les différents acteurs et ressources
-          qui vont t'aider.
+          qui vont vous aider.
         </p>
         <p>
           Aussi vous trouverez quelques petites infos, des liens utiles, les
-          questions les plus fréquemments posées,et l'avancée concernant mes
+          questions les plus fréquemments posées,et l'avancée concernant les
           projets.
         </p>
       </section>

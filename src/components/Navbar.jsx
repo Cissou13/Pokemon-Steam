@@ -9,7 +9,7 @@ export default function Navbar() {
         <ul className='menu-container'>
           <li className='menu-items'>
             <Link to='/projets'>
-              Présentation des projets Steam
+              Projets Steam
               <span role='img' aria-label='Equipe'>
                 🛠️
               </span>
@@ -25,7 +25,11 @@ export default function Navbar() {
           </li>
           <li className='menu-items'>
             <Link to='/FAQ'>
-              FAQ
+              {' '}
+              <span role='img' aria-label='Equipe'>
+                💾
+              </span>
+              Download / FAQ
               <span role='img' aria-label='Equipe'>
                 ❓
               </span>
@@ -33,9 +37,12 @@ export default function Navbar() {
           </li>
           <li className='menu-items'>
             <Link to='/team'>
-              Acteurs du projet
               <span role='img' aria-label='Equipe'>
-                🖱️
+                👨‍💻
+              </span>
+              Equipe / Remerciements{' '}
+              <span role='img' aria-label='Equipe'>
+                🙏
               </span>
             </Link>
           </li>

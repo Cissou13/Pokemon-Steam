@@ -43,21 +43,41 @@
   text-align: center;
   justify-content: center;
   transition: all 0.7s ease-in-out;
-  width: 50%;
+  width: 65%;
   min-width: 300px;
   margin: 5rem 0.5rem 3rem 0.5rem;
   padding: 1.25rem;
 }
 
-.team-content img {
-  width: 50%;
-  height: auto;
-  margin-bottom: 50px;
-  border-radius: 50%;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+.split2 {
+  width: 40%;
 }
 
+.team-content img {
+  width: 25%;
+
+  margin-bottom: 40px;
+  margin-top: 10px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px;
+}
+
+#first {
+  width: 35%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px 10px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.team-content h2 {
+  border-bottom: 5px ridge #5d8abd;
+  width: 30%;
+  margin: 0 auto;
+  padding: 5px 0;
+}
+
+.trois {
+  width: 20% !important;
+  margin: 0 2%;
+}
 .team-content .left-text {
   text-align: left;
 }

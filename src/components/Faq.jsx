@@ -8,7 +8,10 @@ export default function FAQ() {
         Comment jouer à Pokemon Steam sur mon PC ? Puis-je y jouer sur Mac ?
       </h3>
       <div className='border-title'></div>
-      <h2 id='fixtitle'>Il n'existe plus de version avec launcher.</h2>
+      <h2 id='fixtitle'>
+        Il n'existe plus de version avec launcher. Et Winrar/7 Zip est
+        obligatoire pour décompresser le jeu
+      </h2>
       <p className='answer-text'>
         Concernant la question, tout a été renseigné sur le{' '}
         <strong>wiki</strong> :

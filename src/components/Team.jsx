@@ -11,36 +11,60 @@ export default function Team() {
       </article>
 
       <article className='team-content'>
-        <img src='https://via.placeholder.com/64' alt='Dév 1' title='Dév 1' />
-        <h2>Dév 1</h2>
+        <img
+          src='https://www.cyrillefabre.com/upload/pokemonsteam/avatarBugfix.png'
+          alt='Bugfix'
+          title='Bugfix'
+          id='first'
+        />
+        <h2>Bugfix</h2>
+        <p className='left-text'>Directeur et unique développeur du projet</p>
+        <div className='social-icons-team'>
+          <li>
+            <a href='https://www.youtube.com/channel/UCVMU6KuSA4Ca_kkM62Ripjw'>
+              <i className='fab fa-youtube'></i>
+            </a>
+          </li>
+          <li>
+            <a href='https://discord.gg/RktYVPE'>
+              <i className='fab fa-discord'></i>
+            </a>
+          </li>
+        </div>
+      </article>
+      <article className='team-content split2'>
+        <img
+          src='https://www.cyrillefabre.com/upload/pokemonsteam/avatarOPW.png'
+          alt='Beta Testeur'
+          title='Beta Testeur'
+        />
+        <h2>One Piece Warrior</h2>
+        <p className='right-text'>Le tout premier Bêta Testeur de Steam 1</p>
+        {/* <div className='social-icons-team'>
+          <li>
+            <a href='https://github.com/'>
+              <i className='fab fa-github'></i>
+            </a>
+          </li>
+          <li>
+            <a href='https://www.linkedin.com/'>
+              <i className='fab fa-linkedin'></i>
+            </a>
+          </li>
+        </div> */}
+      </article>
+      <article className='team-content split2'>
+        <img
+          src='https://via.placeholder.com/64'
+          alt='Beta Testeur'
+          title='Beta testeur'
+        />
+        <h2> Amras Anàrion</h2>
         <p className='left-text'>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo nobis
-          maxime ut ullam corporis laboriosam quisquam nulla consectetur
-          architecto numquam?
+          Bêta testeur, correcteur orthographique, et créateur de divers mods
+          (Barre PV négatif, double poison qui se transforme en toxik...)
         </p>
-        <div className='social-icons-team'>
-          <li>
-            <a href='https://github.com/'>
-              <i className='fab fa-github'></i>
-            </a>
-          </li>
-          <li>
-            <a href='https://www.linkedin.com/in/'>
-              <i className='fab fa-linkedin'></i>
-            </a>
-          </li>
-        </div>
-      </article>
-      <article className='team-content'>
-        <img src='https://via.placeholder.com/64' alt='Dév 2' title='Dév 2' />
-        <h2>Dév 2</h2>
-        <p className='right-text'>
-          {' '}
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique,
-          distinctio corporis saepe laboriosam vel dolorem. Omnis ipsam quasi
-          reiciendis perferendis.{' '}
-        </p>
-        <div className='social-icons-team'>
+        {/* <div className='social-icons-team'>
           <li>
             <a href='https://github.com/'>
               <i className='fab fa-github'></i>
@@ -51,38 +75,58 @@ export default function Team() {
               <i className='fab fa-linkedin'></i>
             </a>
           </li>
-        </div>
+        </div> */}
       </article>
       <article className='team-content'>
-        <img src='https://via.placeholder.com/64' alt='Dév 3' title='Dév 3' />
-        <h2>Dév 3</h2>
+        <img
+          src='https://www.cyrillefabre.com/upload/pokemonsteam/avatarLexio.png'
+          alt='Helper 1'
+          title='Helper 1'
+          className='trois'
+        />
+        <img
+          src='https://via.placeholder.com/64'
+          alt='Helper 2'
+          title='Helper 2'
+          className='trois'
+        />
+        <img
+          src='https://via.placeholder.com/64'
+          alt='Helper 3'
+          title='Helper 3'
+          className='trois'
+        />
+        <h2>Lexio, Moha et Papy Draco</h2>
         <p className='left-text'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ex
-          asperiores aut eius, facere alias molestias corporis unde tempore
-          error.
+          Les helpeurs qui bossent comme des dingues sur le Wiki
         </p>
         <div className='social-icons-team'>
           <li>
-            <a href='https://github.com/'>
-              <i className='fab fa-github'></i>
+            <a href='https://pokemon-steam1.fandom.com/fr/wiki/Wiki_Pok%C3%A9mon_Steam'>
+              <i className='fas fa-atlas'></i>
             </a>
           </li>
           <li>
-            <a href='https://www.linkedin.com/'>
-              <i className='fab fa-linkedin'></i>
+            <a href='https://discord.gg/RktYVPE'>
+              <i className='fab fa-discord'></i>
             </a>
           </li>
         </div>
       </article>
+
       <article className='team-content'>
-        <img src='https://via.placeholder.com/64' alt='Dév 4' title='Dév 4' />
-        <h2>Dév 4</h2>
-        <p className='right-text'>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
-          corrupti ipsum quisquam aut, beatae labore aliquid molestiae sint
-          debitis rerum?
+        <h2>Crédits (Il y a du monde)</h2>
+        <p className='center'>
+          Par souci de clarté, je vous invite à retrouver la liste complète{' '}
+          <a
+            href='https://pokemonworkshop.fr/forum/index.php?topic=5417.0'
+            target='_blank'
+            rel='noreferrer'
+          >
+            ici
+          </a>
         </p>
-        <div className='social-icons-team'>
+        {/* <div className='social-icons-team'>
           <li>
             <a href='https://github.com/'>
               <i className='fab fa-github'></i>
@@ -93,7 +137,7 @@ export default function Team() {
               <i className='fab fa-linkedin'></i>
             </a>
           </li>
-        </div>
+        </div> */}
       </article>
     </main>
   );
