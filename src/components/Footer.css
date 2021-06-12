@@ -5,7 +5,7 @@
 .contact-container {
   display: flex;
   justify-content: center;
-  width: 30%;
+  width: 40%;
   flex-wrap: wrap;
   padding: 1% 0;
 }
@@ -73,13 +73,13 @@ a.discord {
 .copyright {
   width: 100%;
   background-color: var(--main-color);
-  padding: 20px;
   color: black;
+  padding: 5px 0;
 }
 
 .footer-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -95,6 +95,6 @@ a.discord {
   margin-top: 15px;
 }
 
-.copyright {
-  padding-left: 4%;
+.fix-footer {
+  margin-right: 4%;
 }

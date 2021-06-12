@@ -8,7 +8,7 @@ export default function Footer() {
     <footer>
       <div className='footer-container'>
         <Link to='/'>
-          <div className='footer-logo'>
+          <div className='footer-logo fix-footer'>
             <img
               src='https://www.cyrillefabre.com/upload/logos/pokemonsteam.png'
               alt='Logo Pokemon Steam'
@@ -17,7 +17,7 @@ export default function Footer() {
           </div>
         </Link>
         <Contact />
-        <div className='social-container'>
+        <div className='social-container fix-footer'>
           <h3 className='social-follow footer-title'>Liens Utiles</h3>
           <div className='social-icons'>
             <a

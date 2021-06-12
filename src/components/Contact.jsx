@@ -3,7 +3,7 @@ import './Footer.css';
 
 export default function Contact() {
   return (
-    <section className='contact-container'>
+    <section className='contact-container fix-footer'>
       <h3 className='copyright-text'>
         <p>
           L'ensemble des noms cités sur Pokemonsteam.fr sont des marques
