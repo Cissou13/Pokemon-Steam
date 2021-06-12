@@ -48,6 +48,15 @@ export default function Footer() {
         </div>
       </div>
       <p className='copyright'>© 2021 Tous droits réservés - Pokemon Steam</p>
+      <p className='copyright'>
+        <a
+          href='https://www.facebook.com/Staycalmandcode'
+          target='_blank'
+          rel='noreferrer'
+        >
+          Contacter le dev {}
+        </a>
+      </p>
     </footer>
   );
 }

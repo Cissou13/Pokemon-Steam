@@ -7,7 +7,7 @@
   justify-content: center;
   width: 30%;
   flex-wrap: wrap;
-  padding-top: 2%;
+  padding: 1% 0;
 }
 
 .copyright-text {
@@ -92,6 +92,9 @@ a.discord {
 }
 
 .footer-logo {
-  width: 100%;
-  box-sizing: cover;
+  margin-top: 15px;
+}
+
+.copyright {
+  padding-left: 4%;
 }

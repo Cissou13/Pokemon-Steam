@@ -15,6 +15,24 @@ export default function Homepage() {
           questions les plus fréquemments posées,et l'avancée concernant les
           projets.
         </p>
+        <p>
+          Une mention spéciale pour Fildrong, maître de la strat Pokemon, et
+          youtubeur reconnu sur Pokemon.
+          <br />
+          Il a vécu l'expérience Steam, l'a savourée, et en a donné son avis.{' '}
+          <br /> Nous le remercions d'y avoir joué
+          <p>
+            <iframe
+              width='560'
+              height='315'
+              src='https://www.youtube.com/embed/DYoWYf_ie_M'
+              title='YouTube video player'
+              frameborder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+              allowfullscreen
+            ></iframe>
+          </p>
+        </p>
       </section>
       <section className='homepage-content'>
         <p>
@@ -26,6 +44,11 @@ export default function Homepage() {
           Jetez un oeil à la catégorie <strong>Liens Utiles</strong> en bas du
           site.
         </p>
+        <section className='homepage-content'>
+          <h2>Infos & Modifications récentes</h2>
+          <h3>13/06/2021</h3>
+          <p>Déploiement de la 1ere version desktop du site</p>
+        </section>
       </section>
     </main>
   );

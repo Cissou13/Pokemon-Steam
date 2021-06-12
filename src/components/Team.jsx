@@ -55,7 +55,7 @@ export default function Team() {
       </article>
       <article className='team-content split2'>
         <img
-          src='https://via.placeholder.com/64'
+          src='https://www.cyrillefabre.com/upload/pokemonsteam/noavatar.png'
           alt='Beta Testeur'
           title='Beta testeur'
         />
@@ -79,22 +79,24 @@ export default function Team() {
       </article>
       <article className='team-content'>
         <img
-          src='https://www.cyrillefabre.com/upload/pokemonsteam/avatarLexio.png'
+          src='https://www.cyrillefabre.com/upload/pokemonsteam/avatarLexio2.png'
           alt='Helper 1'
           title='Helper 1'
           className='trois'
         />
         <img
-          src='https://via.placeholder.com/64'
+          src='https://www.cyrillefabre.com/upload/pokemonsteam/avatarMoha2.png'
           alt='Helper 2'
           title='Helper 2'
           className='trois'
+          height='270px'
         />
         <img
-          src='https://via.placeholder.com/64'
+          src='https://www.cyrillefabre.com/upload/pokemonsteam/avatarDraco2.png'
           alt='Helper 3'
           title='Helper 3'
           className='trois'
+          height='270px'
         />
         <h2>Lexio, Moha et Papy Draco</h2>
         <p className='left-text'>

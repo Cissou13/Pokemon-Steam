@@ -4,8 +4,8 @@
 
 .header-container {
   /* background-color: var(--header-bg-color); */
-  /* background-color: #4a79ca; */
-  background-image: linear-gradient(45deg, #6285bc 0%, #49494e 100%);
+  background-color: black;
+  /* background-image: linear-gradient(45deg, #6285bc 0%, #49494e 100%); */
   display: flex;
   justify-content: center;
   height: 240px;

@@ -24,3 +24,15 @@
   margin: 0 auto;
   padding: 15px 0;
 }
+
+section a {
+  color: greenyellow;
+}
+
+section h2 {
+  color: rgb(184, 171, 209);
+  border-bottom: 5px ridge #5d8abd;
+  width: 35%;
+  margin: 3% auto;
+  padding: 10px 0;
+}
