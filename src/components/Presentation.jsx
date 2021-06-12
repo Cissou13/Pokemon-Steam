@@ -56,7 +56,7 @@ export default function Presentation() {
           Projet toujours en cours de développement. Une date sera annoncée sur
           le discord du jeu. <br />
           La seule info que nous avons : L'histoire se passe 20 ans après Steam
-          1, et se situe dans la région du post game (Tamariel)
+          1, et se situe dans la région du post game (Tameriel)
         </blockquote>
       </section>
       <section className='presentation-item'>
